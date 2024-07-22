@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+background-color: rgb(56, 56, 56);
+}
+
+
+
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+    border: solid , black, 2px;
+}
+div:hover{
+    background-color: blue;
+}
+
+
+
+
+#meio{
+    position: fixed;
+    right: 195px;
+    top: 90px;
+    height: 400px;
+    width: 200px;
+}
+#meio:hover{
+   background-image: repeating-radial-gradient(red, black);
+}
+
+
+#direita{
+    position: fixed;
+    width: 150px;
+    height: 400px;
+    right: 10px;
+    top: 90px;
+}
+#direita:hover{
+    background-color: rgb(74, 1, 143);
+}
+    
+
+
+#direita >p{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold ;
+    top: 250px;
+    display: none;
+    font-weight: 900;
+}
+
+#direita:hover >p{
+    display: block;  
+}
+h1{
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+   
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            background-color: rgb(61, 61, 61);
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: cyan;
+        }
+
+        a::before{
+            content: '⮕';
+            color: white;
+        }
+        a::after{
+            content: '⬅';
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1> <hr>
+    <h2>musicas que eu gosto</h2>
+    <ul>
+        <li><a href="https://youtu.be/G3-jmM-aLzs?si=mi3kBxHFUdliRnlW">Primeira Musica</a></li>
+        <li><a href="https://youtu.be/BY_XwvKogC8?si=d94LKqPtHmoMOFAB">segunda Musica</a></li>
+        <li><a href="https://youtu.be/fV4DiAyExN0?si=k4jkQuVTf-69YPlU">terceira Musica</a></li>
+    </ul>
+</body>
+</html>
