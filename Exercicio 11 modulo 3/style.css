@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+body{
+  background-image: url('target001.png');
+}
+
+.quadrado{
+    border: 2px solid black;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(80, 80, 80);
+}
+
+#q1{
+  background-color: rgb(80, 80, 80);
+}
+
+#q2{
+background-image: linear-gradient(to bottom, rgb(0, 225, 255), blue);
+}
+
+#q3{
+  background-image: url('pattern003.png');
+}
